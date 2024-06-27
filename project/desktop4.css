@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pappins', sans-serif;
+    
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;  
+
+}
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 7, 92);
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header i{
+    float: right;
+    font-size: 24px;
+    color: aliceblue;
+    align-items: center;
+    margin-right: 12px;
+}
+section{
+    margin-top: 20px;
+    background-color: black;
+    width: 60%;
+    height: 10%;
+    margin-left: 10%;
+    color: white;
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav{
+    margin-top: 10px;
+    background-color: black;
+    width: 60%;
+    height: 45%;
+    margin-left: 10%;
+    color: white;
+    padding-left: 22px;
+
+
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    color: white;
+    text-align: end;
+
+}
+footer select {
+    background-color: blue;
+    color: white;
+    font-size:bold;
+    margin-top: 10px;
+    margin-right: 15px;
+    border-radius: 4px;
+    position: relative;
+}
+
+aside{
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 10%;
+    float: right;
+    background-color: gray;
+    height: 50%;
+    margin-top: 20px;
+    text-align: center;
+     
+}
+
+.side{
+    display: flex;
+
+}
+
+
